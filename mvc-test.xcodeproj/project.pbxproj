@@ -54,6 +54,9 @@
 		BAD00D2E1D2342680014DB4A /* mvc-test */ = {
 			isa = PBXGroup;
 			children = (
+				BAD00D431D2346450014DB4A /* Controller */,
+				BAD00D421D23463D0014DB4A /* View */,
+				BAD00D411D2346380014DB4A /* Model */,
 				BAD00D2F1D2342680014DB4A /* AppDelegate.swift */,
 				BAD00D311D2342680014DB4A /* ViewController.swift */,
 				BAD00D331D2342680014DB4A /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				BAD00D3B1D2342680014DB4A /* Info.plist */,
 			);
 			path = "mvc-test";
+			sourceTree = "<group>";
+		};
+		BAD00D411D2346380014DB4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BAD00D421D23463D0014DB4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BAD00D431D2346450014DB4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
