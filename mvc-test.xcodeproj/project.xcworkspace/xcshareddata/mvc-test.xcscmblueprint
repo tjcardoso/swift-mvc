@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD125EBAFB4C43A4A0E4C6B00DAF826B933CB0A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CD125EBAFB4C43A4A0E4C6B00DAF826B933CB0A4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FFFFC0D6-80EA-473D-BD79-8B95422B4CF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CD125EBAFB4C43A4A0E4C6B00DAF826B933CB0A4" : "mvc-test\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "mvc-test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "mvc-test.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tjcardoso\/swift-mvc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD125EBAFB4C43A4A0E4C6B00DAF826B933CB0A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tjcardoso\/swift-mvc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD125EBAFB4C43A4A0E4C6B00DAF826B933CB0A4"
+    }
+  ]
+}

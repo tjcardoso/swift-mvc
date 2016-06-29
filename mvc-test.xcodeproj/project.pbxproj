@@ -12,6 +12,8 @@
 		BAD00D351D2342680014DB4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD00D331D2342680014DB4A /* Main.storyboard */; };
 		BAD00D371D2342680014DB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD00D361D2342680014DB4A /* Assets.xcassets */; };
 		BAD00D3A1D2342680014DB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD00D381D2342680014DB4A /* LaunchScreen.storyboard */; };
+		BAD00D461D23478B0014DB4A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD00D451D23478B0014DB4A /* Person.swift */; };
+		BAD00D481D234DF50014DB4A /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD00D471D234DF50014DB4A /* RoundedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BAD00D361D2342680014DB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAD00D391D2342680014DB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAD00D3B1D2342680014DB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD00D451D23478B0014DB4A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = "../../../swift/mvc-test/mvc-test/Person.swift"; sourceTree = "<group>"; };
+		BAD00D471D234DF50014DB4A /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedImageView.swift; path = "../../../swift/mvc-test/mvc-test/RoundedImageView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,11 @@
 		BAD00D2E1D2342680014DB4A /* mvc-test */ = {
 			isa = PBXGroup;
 			children = (
-				BAD00D431D2346450014DB4A /* Controller */,
+				BAD00D441D2347320014DB4A /* Resources */,
 				BAD00D421D23463D0014DB4A /* View */,
 				BAD00D411D2346380014DB4A /* Model */,
+				BAD00D431D2346450014DB4A /* Controller */,
 				BAD00D2F1D2342680014DB4A /* AppDelegate.swift */,
-				BAD00D311D2342680014DB4A /* ViewController.swift */,
 				BAD00D331D2342680014DB4A /* Main.storyboard */,
 				BAD00D361D2342680014DB4A /* Assets.xcassets */,
 				BAD00D381D2342680014DB4A /* LaunchScreen.storyboard */,
@@ -70,6 +74,7 @@
 		BAD00D411D2346380014DB4A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BAD00D451D23478B0014DB4A /* Person.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 		BAD00D421D23463D0014DB4A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BAD00D471D234DF50014DB4A /* RoundedImageView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -84,8 +90,16 @@
 		BAD00D431D2346450014DB4A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BAD00D311D2342680014DB4A /* ViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		BAD00D441D2347320014DB4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD00D481D234DF50014DB4A /* RoundedImageView.swift in Sources */,
+				BAD00D461D23478B0014DB4A /* Person.swift in Sources */,
 				BAD00D321D2342680014DB4A /* ViewController.swift in Sources */,
 				BAD00D301D2342680014DB4A /* AppDelegate.swift in Sources */,
 			);
